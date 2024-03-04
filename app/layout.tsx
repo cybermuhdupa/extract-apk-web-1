@@ -28,16 +28,14 @@ export default function RootLayout({
 
           </div>
           <div>
-            <a href="https://github.com/bagusindrayana/extract-apk-web">
-              <FaGithub className="text-white text-2xl" />
-            </a>
+           
           </div>
          </div>
 
         {children}
 
          {/* full width footer with tailwind */}
-        <footer className="bg-gray-800 text-white p-4 text-center">
+      <!---  <footer className="bg-gray-800 text-white p-4 text-center">
           <p>
             Made with{" "}
             <span role="img" aria-label="heart">
@@ -46,7 +44,7 @@ export default function RootLayout({
             by{" "}
             <a
               className="underline"
-              href="https://github.com/bagusindrayana/">Dev</a>
+              href="https://github.com/bagusindrayana/">Dev</a> -->
           </p>
         </footer>
 
